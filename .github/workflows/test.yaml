@@ -25,5 +25,5 @@ jobs:
         run: uv add ruff
 
       - name: Run Ruff
-        run: uv ruff check main.py
+        run: uv run ruff check main.py
 
