@@ -27,3 +27,6 @@ jobs:
       - name: Run Ruff
         run: uv run ruff check main.py
 
+      - name: Run main
+        run: uv run main.py
+
