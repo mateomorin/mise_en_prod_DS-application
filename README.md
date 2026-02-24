@@ -1,3 +1,6 @@
+
+[![Python package](https://github.com/mateomorin/mise_en_prod_DS-application/actions/workflows/test.yaml/badge.svg)](https://github.com/mateomorin/mise_en_prod_DS-application/actions/workflows/test.yaml)
+
 # Probabilité de survie sur le Titanic
 
 Pour pouvoir utiliser ce projet, il 
