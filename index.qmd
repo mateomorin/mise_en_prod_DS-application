@@ -50,7 +50,7 @@ d3.json(prediction)
 ```
 
 ```{ojs}
-apiRoot = "https://titanic-du-feu-de-dieu.lab.sspcloud.fr/"
+apiRoot = "https://titanic-du-feu-de-dieu.lab.sspcloud.fr"
 ```
 
 ```{ojs}
