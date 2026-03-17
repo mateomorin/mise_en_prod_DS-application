@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: compte_dockerhub/mise_en_prod_ds-application:latest
+          tags: mateomorin/mise_en_prod_ds-application:latest
