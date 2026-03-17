@@ -54,7 +54,7 @@ apiRoot = "https://titanic-du-feu-de-dieu.lab.sspcloud.fr"
 ```
 
 ```{ojs}
-prediction = `${apiRoot}/predict?pclass=${class_boat}&sex=${gender}&age=${age}&sib_sp=1&parch=1&fare=16.5&embarked=S&title=${title}&has_cabin=1&ticket_len=7`
+prediction = `${apiRoot}predict?pclass=${class_boat}&sex=${gender}&age=${age}&sib_sp=1&parch=1&fare=16.5&embarked=S&title=${title}&has_cabin=1&ticket_len=7`
 ```
 
 ```{ojs}
