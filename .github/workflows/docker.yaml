@@ -2,6 +2,8 @@ name: Construction image Docker
 
 on:
   push:
+    tags:
+      - 'v*.*.*'
 
 
 jobs:
