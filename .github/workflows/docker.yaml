@@ -27,4 +27,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: mateomorin/mise_en_prod_ds-application:latest
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
