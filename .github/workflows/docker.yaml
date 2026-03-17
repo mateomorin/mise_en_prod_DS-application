@@ -21,7 +21,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: username_github/application
+          images: mateomorin/mise_en_prod_ds-application
       -
         name: Login to Docker Hub
         uses: docker/login-action@v3
